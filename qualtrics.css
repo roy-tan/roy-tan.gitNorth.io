@@ -80,8 +80,8 @@
 .br-theme-bars-square .br-widget a.br-active,
 .br-theme-bars-square .br-widget a.br-selected,
 .br-theme-bars-square .br-widget a.br-selected.br-current {
-  border: 2px solid #446792 !important;
-  color: #446792 !important;
+  border: 2px solid #990000 !important;
+  color: #990000 !important;
 }
 
 .br-theme-bars-square .br-widget .br-current-rating {
