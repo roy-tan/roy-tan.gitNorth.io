@@ -1,3 +1,2 @@
 # roy-tan.gitNorth.io
-GitNorth
-https://roy-tan.github.io/roy-tan.gitNorth.io/qualtrics.css
+https://github.com/roy-tan/roy-tan.gitNorth.io/wiki

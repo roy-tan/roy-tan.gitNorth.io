@@ -1,0 +1,116 @@
+/* custom rating theme: font awesome: start */
+
+.br-theme-fontawesome-stars .br-widget {
+  height: 28px;
+  white-space: nowrap;
+}
+.br-theme-fontawesome-stars .br-widget a {
+  font: normal normal normal 20px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 32px;
+}
+.br-theme-fontawesome-stars .br-widget a:after {
+  content: "\f005";
+  color: #dee2e4;
+}
+.br-theme-fontawesome-stars .br-widget a.br-active:after {
+  color: #990000;
+}
+.br-theme-fontawesome-stars .br-widget a.br-selected:after {
+  color: #990000;
+}
+.br-theme-fontawesome-stars .br-widget .br-current-rating {
+  display: none;
+}
+.br-theme-fontawesome-stars .br-readonly a {
+  cursor: default;
+}
+@media print {
+  .br-theme-fontawesome-stars .br-widget a:after {
+    content: "\f006";
+    color: black;
+  }
+  .br-theme-fontawesome-stars .br-widget a.br-active:after,
+  .br-theme-fontawesome-stars .br-widget a.br-selected:after {
+    content: "\f005";
+    color: black;
+  }
+}
+/* custom rating theme: font awesome: end */
+
+/* custom rating theme: bars square: start */
+
+.br-wrapper.br-theme-bars-square {
+  margin-top: 0px !important;
+  width: 100% !important;
+  text-align: center !important;
+  position: relative !important;
+  min-height: 35px;
+  height: auto !important;
+  height: 35px;
+}
+.br-theme-bars-square .br-widget {
+  text-align: center !important;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: table !important;
+  border-spacing: 5px !important;
+}
+.br-theme-bars-square .br-widget a {
+  display: table-cell;
+  min-width: 30px;
+  min-height: 30px;
+
+  border: 2px solid #F3F1F2;
+  background-color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+  text-align: center;
+  color: #F3F1F2;
+  font-weight: 600;
+}
+.br-theme-bars-square .br-widget a.br-active,
+.br-theme-bars-square .br-widget a.br-selected,
+.br-theme-bars-square .br-widget a.br-selected.br-current {
+  border: 2px solid #990000 !important;
+  color: #990000 !important;
+}
+
+.br-theme-bars-square .br-widget .br-current-rating {
+  clear: both;
+  width: 330px;
+  text-align: center;
+  font-weight: 600;
+  display: block;
+  padding: 0.5em 0;
+  color: #646464;
+}
+.br-theme-bars-square .br-readonly a {
+  cursor: default;
+}
+.br-theme-bars-square .br-readonly a.br-active,
+.br-theme-bars-square .br-readonly a.br-selected {
+  border: 2px solid #990000;
+  color: #990000;
+}
+
+@media print {
+  .br-theme-bars-square .br-widget a {
+    border: 2px solid #b3b3b3;
+    color: #b3b3b3;
+  }
+  .br-theme-bars-square .br-widget a.br-active,
+  .br-theme-bars-square .br-widget a.br-selected {
+    border: 2px solid black;
+    color: black;
+  }
+}
+/* custom rating theme: bars square: end */
