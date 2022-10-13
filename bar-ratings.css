@@ -17,10 +17,10 @@
   color: #dee2e4;
 }
 .br-theme-fontawesome-stars .br-widget a.br-active:after {
-  color: #990000;
+  color: #009BDE;
 }
 .br-theme-fontawesome-stars .br-widget a.br-selected:after {
-  color: #990000;
+  color: #009BDE;
 }
 .br-theme-fontawesome-stars .br-widget .br-current-rating {
   display: none;
@@ -80,8 +80,8 @@
 .br-theme-bars-square .br-widget a.br-active,
 .br-theme-bars-square .br-widget a.br-selected,
 .br-theme-bars-square .br-widget a.br-selected.br-current {
-  border: 2px solid #990000 !important;
-  color: #990000 !important;
+  border: 2px solid #009BDE !important;
+  color: #009BDE !important;
 }
 
 .br-theme-bars-square .br-widget .br-current-rating {
@@ -98,8 +98,8 @@
 }
 .br-theme-bars-square .br-readonly a.br-active,
 .br-theme-bars-square .br-readonly a.br-selected {
-  border: 2px solid #990000;
-  color: #990000;
+  border: 2px solid #0062B1;
+  color: #009BDE;
 }
 
 @media print {
