@@ -187,7 +187,7 @@ font-family:TeleNeoNewBold,TeleNeo,Helvetica Neue,Helvetica,Arial,sans-serif;
 
 body#SurveyEngineBody div.Skin div#Wrapper div.SkinInner div#SkinContent div#Buttons input#NextButton,
 body#SurveyEngineBody div.Skin div#Wrapper div.SkinInner div#SkinContent div#Buttons input#PreviousButton {
-    font-size: 24px;
+    font-size: 16px;
     background: #023B7E000;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
@@ -244,7 +244,7 @@ body#SurveyEngineBody div,
 body#SurveyEngineBody input,
 body#SurveyEngineBody select,
 body#SurveyEngineBody textarea.InputText {
-    font-size: 18px;
+    font-size: 16px;
     color: #023B7E;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
@@ -281,7 +281,7 @@ body#SurveyEngineBody .QuestionText {
     font-style: normal;
     text-align: center;
     color: #023B7E;
-    font-size: 24px;
+    font-size: 16px;
     width: 100%;
     display: block;
     background-color: none;
@@ -350,7 +350,7 @@ body#SurveyEngineBody div.Skin div#Wrapper div.SkinInner div#SkinContent p.acces
 
 body#SurveyEngineBody div.Skin div#Wrapper div.SkinInner div#SkinContent p {
     margin-top: 0.25em;
-    font-size: 18px;
+    font-size: 16px;
     color: #023B7E;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
@@ -359,7 +359,7 @@ body#SurveyEngineBody div.Skin div#Wrapper div.SkinInner div#SkinContent p {
     text-transform: none;
 
 
-    line-height: 24px;
+    line-height: 16px;
 }
 
 body#SurveyEngineBody div.dtag-intro {
@@ -376,7 +376,7 @@ body#SurveyEngineBody div.dtag-intro p {
     margin: 0 auto;
     width: auto;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     background: #023B7E;
     text-transform: uppercase;
@@ -851,7 +851,7 @@ body#SurveyEngineBody div.Skin div#Wrapper div.SkinInner div#SkinContent .ios-li
     padding: 0;
     max-width: 100%;
     resize: none;
-    height: 18px;
+    height: 16px;
     vertical-align: bottom;
     font-family: sans-serif;
     overflow: hidden;
