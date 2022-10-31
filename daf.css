@@ -165,7 +165,9 @@ body#SurveyEngineBody div.QuestionBody {
 
 body#SurveyEngineBody div.Skin {}
 
-body#SurveyEngineBody div.Skin div#Wrapper div.SkinInner {}
+body#SurveyEngineBody div.Skin div#Wrapper div.SkinInner {
+    opacity: 0.9;
+}
 
 
 
