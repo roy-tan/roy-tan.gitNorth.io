@@ -209,9 +209,15 @@
     padding: 0
 }
 
-#Toc ul li {
+#Toc ul {
     margin: 2px 0;
     list-style-type: none
+}
+
+#Toc li {
+    margin: 2px 0;
+    list-style-type: none;
+    display:inline-block;
 }
 
 #Toc a,
