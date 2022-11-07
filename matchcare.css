@@ -1,3 +1,67 @@
+.Skin .closed #TocSidebarIcons,
+.Skin .reduced #TocSidebarIcons {
+    padding-left: 20px
+}
+
+@media only screen and (max-width:1400px) {
+
+    .Skin .closed #TocSidebarIcons,
+    .Skin .reduced #TocSidebarIcons {
+        padding-left: 10px
+    }
+}
+
+.Skin #TocSidebarContainer {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    background: #fff
+}
+
+.Skin #TocSidebarContainer.reduced {
+    background: #fff;
+    left: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.Skin #TocSidebarContainer.closed {
+    box-shadow: none;
+    transition: 0s linear left
+}
+
+.Skin #Toc a,
+.Skin #Toc strong,
+.Skin #TocHeader a {
+    color: #525252
+}
+
+.Skin #Toc li.Incomplete a {
+    color: #525252
+}
+
+.Skin #Toc li.Current,
+.Skin #Toc li.Current a,
+.Skin #Toc li.Current strong,
+.Skin #TocHeader td.Current a,
+.Skin body #Toc li.Current a {
+    background-color: #009edb;
+    color: #000
+}
+
+.Skin #Toc li.Alert a {
+    color: red
+}
+
 #TocHeaderContainer {
     position: absolute;
     top: 0;
