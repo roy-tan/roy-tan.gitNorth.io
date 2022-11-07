@@ -173,13 +173,13 @@
 
 .closed #TocSidebarContent {
     display: block;
-    visibility: hidden
+    visibility: visible
 }
 
 .closed.reduced #TocSidebarContent {
     display: block;
     margin-left: -150px;
-    visibility: hidden
+    visibility: visible
 }
 
 #Toc {
