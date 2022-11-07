@@ -178,7 +178,7 @@
 
 .closed.reduced #TocSidebarContent {
     display: block;
-    margin-left: -150px;
+    /* margin-left: -150px; */
     visibility: visible
 }
 
