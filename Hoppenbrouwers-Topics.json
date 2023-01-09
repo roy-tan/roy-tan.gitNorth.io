@@ -1,0 +1,444 @@
+{
+  "version": "1.0",
+  "operations": [
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_ae940be73374d16b070fd05d",
+        "label": "Accessibility",
+        "query": "Accessibility | comprehensible | approachable | understand | clarity lucidity | explicit | clear | lucidness | coherent | perspicuity user-friendliness | straight forward | perspicuous | direct | obvious | simple | precision | digestible | transparency | eloquence | distinctness | articulate | unambiguous | available | fast | timelines | availability"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_309510900fa40f7c43ca401f",
+        "label": "Accuracy",
+        "query": "(error | mistake | issue | problem | dilemma | dilema | dilemma | complint | complant | complaint | inquiry | fault | miscalculation | omission | wrong | trouble | oversight | exclusion | enquiry | query | question | overcharge) & (bill | payment | credit | invoice | bill  | tarrif | tarif | tariff | tarriff | statement) -(no problem | no issue | no error) -(never issue)~5"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_d6efc49e329be040147695b0",
+        "label": "Agent",
+        "query": "rep | representative | handler | associate | operator | operative | manager | interlocutor |  young lady | young man | support person | agent | customer relations | call handler | adviser | operator | agent | assistant | advisor | adviser -(engineer | installer | technician)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_c58b5c1874e05af23621cf7a",
+        "label": "Appointment",
+        "query": "(appointment | booking | slot | arrangement | house visit | schedule & inspection | check & visit) -(payment arrangement | medical & appointment | dental & appointment)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_d9fb0a0de9fd0f7b73dc8677",
+        "label": "Claims",
+        "query": "Claims | lawsuits | cases | litigation | suits -suited | disputes | proceedings | prosecution | contentions"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_109a81a7ef1fd77fab4cf415",
+        "label": "Company",
+        "query": "(\"M & A\") | platform consolidation | partnerships | ecosystem | switching costs | languages | localization | functional organizational structure | product-based divisional structure | market-based divisional structure | geographical divisional structure | process-based structure | matrix structure | circular structure | flat structure | network structure |defined buyer in the org"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_a2a713b3438322def9a279c6",
+        "label": "Competition",
+        "query": "(competition | competitor | compete | ((different | other | another | switch) & (company | brand | product | service | \"org\")) | \"somewhere else\" | \"someplace else\") & (deals | transactions | disposal | trade | auctions | bargains | fair | marts | barter | business | buying | clearance | closeouts | commerce | consuming | demand | enterprises | marketing | negotiations | purchase | purchasing | reduction | vendition | discounts | sale | order | auctions | jam | do) | \"somewhere else\" | \"someplace else\" | competitor"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_bdf910d656d3cc1a4855f56f",
+        "label": "Contracts",
+        "query": "(Contracts | agreement | bonds | pact | undertaking | quotes) -(contracts & job | quoted & hours)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_b50f33daba71f64c7dbde44f",
+        "label": "Cost/Rate",
+        "query": "(pricing | price | rate| rates | reasonable -(time)| affordable | amount | cost | on offer | good offer | bad offer | on sale | promotion | deals | discount | expensive  | paying | deposit | expense | payment | costly | inexpensive | extortionate | exorbitant | overpriced | \"too high\" | dollars | euro | pounds | daylight robbery| affordable price | afford | cheap | costlier | expensive | inexpensive | cheaply | cheaper | costly | cost | bargain | value | rates |  \"value for money\" | economical | economic | budget | cheapest | \"cheap-priced\" | pricing | raising | overpriced | \"mark down\" | reasonable fare | reasonable price | dirt-cheap | \"dime a dozen\" | \"for a song\" \"half-price \" | thrifty | nominal | \"mark downs\" | \"great deal\" | \"good price\" | discounted | pricey | \"high price\" | high priced | high-priced | inordinate | \"on sale\" | markdown | \"price's\" | \"money's worth\" | \"money worth\" | markup | competitive | pricewise | \"a steal\" | \"arm and a leg\" | \"arm and leg\" | charging | charged | steep | \"plus tax\" | \"pay\" | \"paid\" | $ | £ |  € | fortune )"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_7f98c3f6244eb2e65a50f205",
+        "label": "Delivery - Delivery Delay",
+        "query": "((deliver | speed | delivery | hand over | hand-over| (pick up car)~2 | (picked up)~2 |( get car)~2 ) & (delay | late | wait | postpone | on time | turnaround)) OR (( delivery long)~6 | ( deliver long)~6 | ( delivery quick)~6 | ( delivery quickly)~6 | ( delivery slow)~6 | ( delivery slowly)~6 | ( delivery prompt)~6 | ( delivery promptly)~6 | (delivery new car)~3 | (delivery new vehicle)~3) | ( delivery speed)~6"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_66ebe674d9ba36e99f4974eb",
+        "label": "Delivery - Overall Delivery Experience",
+        "query": "((((deliver | delivered | delivery | hand over | handover | hand-over) & ( order | process | procedure | experience | cost | price | plate | plates | paperwork | documents | contract | delivery | introduce | introduction | experience | registration | sale)) OR ((delivery car)~5 | (delivery vehicle)~5 | (deliver car)~4 | (deliver vehicle)~4 )) -( service | repair))"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_91b2d14f9a92e6110968ab91",
+        "label": "Discounts / Offers",
+        "query": "(on offer | good offer | Discount | Specials | Bargains | Clearance | “On Sale” | Markdown | Rewards | Coupon | Cash-back | Flash Sale | Off-Price  | Promotion | Gimmick | more sale | reductions | sale on | sale for | sale (items | goods | produce | products | things | stock) | myclub | my club  | share reward | (points account)~3 ) -(sales service | after sales)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_9b5e2adc78f622638c1fa483",
+        "label": "Install",
+        "query": "(Install) -(install (software | app | online) | set up & appointment | set up & account)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_47ee23e6024bb77f77bd2b6b",
+        "label": "Overall Sales Experience",
+        "query": "((process | procedure | action | mechanism | system | technique | operation | practice | progress | step | (sales experience)~3 | order | transaction | (ease fluidity)~2 | sale | salesperson | trading | commerce | trade | business | exchange | selling | traffic | affairs | bargaining | barter | commercialism | contracts | customer | industrialism | industry | market | merchandising | racket | deal | manufacturing | game | undertaking | free | enterprise | capital & labor | marketing | proceedings | exchanges | retail | representative | member | wholesale | negotiations | disposal | hawkings | peddlings | export | dealing | marketplace | buying | barterings | auctions | transfer | purchasing | purchase | production | truck | big | consumerism | bargains | buys | shopping | import | relations | interchange | wholesaling | retailing | merchantry | patronage | economics | financial | services | occurrences | settlements | play | treaties | arrangements | events | agreement | deeds | actions | activity | matter | sellers) & (punctual | convenient | efficient | fast | prompt | timely | swift | quick | productive | expedite | speedy | adept | skilled | proactive | hassle knowledge | skill | experience | wisdom | expertise | exposure | familiarity | involvement | proficiency | capability | competence | insight | intimacy | know-how | mastery | practical | knowledge | savvy | training | understanding | acumen | command | impression | judgement | maturity | helpful | unhelpful | perspicacity | professionalism | professional | qualification | savoir-faire | talent | worldliness | acquaintance | action | authority | comprehension | contact | conversance | education | finesse | grounding | learning | smarts | ability | awareness | capacity | common | sense | development | dexterity | good | bad | terrible | excellent | love | hate | discretion | distinction | doing | efficiency | empiricism | enlightenment | evidence | expertness | faculty | fitness | foresight | grasp | gumption | hindsight | inclination | intelligence | intuitiveness | knack | life | perception | power | profundity | easy | hard | proof | prowess | prudence | rationality | reason | refinement | resourcefulness | right | stuff | sagaciousness | sagacity | sageness | scholarship | sophistication | tact | tactfulness | technique | touch | genius | observation | participation | suaveness | shrewdness | adeptness | accomplishment | discernment | astuteness | perceptiveness | sapience | erudition | practicality | skilfulness | adroitness | savoir | faire | discrimination | aptitude | deftness | cleverness | penetration | good | credentials | judiciousness | sense | brains | clear | thinking | art | background | facility | what it takes | sense | perceptivity | past | sharpness | craft | moxie | levelheadedness | acuity | abilities) & -(\"practiced\" | Customer service))"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_314343235be08f366791e8be",
+        "label": "Paperless Billing",
+        "query": "paperless billing | ebilling | e-billing | online billing | electronic billing | e invoice | electronic invoice"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_b2d1d7221293efe505963fd3",
+        "label": "Payments",
+        "query": "pay | charge | payment | paid | pay | fee | credit | waive | debit| taxes | invoice | bank | revolut | overcharge | dollars | autopay | bill | waved | tariff | statement"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_51416f9a28ae9934e482d73d",
+        "label": "Price",
+        "query": "((price competitive)~3 | \"too high\" | affordable | amount | appraisal | appraisement | \"asking price\"~5 | assessment | bill | bundle | charge | consideration | funds | cash | finance | money | cost | demand | deposit | disbursement | discount | dollars | dues | estimate | euro | exaction | expenditure | expense | expensive | extortionate | face value | fee | \"figure\" | freight | fulfilment | inexpensive | invoice | monetary | negotiation | \"on offer\" | overpriced | paid | payment | pounds | price | pricing | purchase order | rate | refund | return | sum | total | transaction | valuation | value | worth | buy | pay | sales |  purchase)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_6bef96fea763237ab28e31ac",
+        "label": "Process & Follow Up",
+        "query": "SLA | Timeliness | Simplicity | Workflow | Manual | \"follow up\" | \"request for information\" | \"q&a\" | \"Q & A\" | \"question and answer\" | quote | \"product information\" | contracting | contract"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4b62891d865612a56d9344e2",
+        "label": "Product - User experience",
+        "query": "interface | intuitive | clunky | easy | cumbersome | complicated | user friendly | usable | navigate | navigation | ease | \"user experience\" | (look feel)~2 | workflow | seamless | simple | difficult | navigate | navigation | usability | functionality | capabilities | integration | flexibility | complexity | slow | compare | smooth | competing | delight | elegant design | convenient | effective | use | (great tool)~3"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_8be7e6be46a7b7f27904b2a7",
+        "label": "Products Availability",
+        "query": "((Item | product | articles | stock | brand | inventory | \"goods\" | Seasonal | selection | merchandise | staples | essentials | groceries | produce | food | beauty | toiletries | fruit | vegetables | clothes | Plus-size | toys | clothing | ingredients | shoes | accessories) & (available | abundance | plenty | refill | miss | missing | find | include | want | out | section | limit | lack | \"not\" enough | insufficient | Sparse | Shortage) & -(web | app | order | online | delivery | receive | website) & -(people | employee | staff | manager | helper | representative | rep | csr | csrs | worker | employee | boy | girl | team | \"associate\" | \"associates\" | everybody | everyone | agent | salesperson | salespeople | salesman | saleswoman | specialist | \"customer service\" | manager | supervisor | cashier | clerk | assistant | attendant | parking)) | stocked | understocked | (shelf empty)~2 | (empty shelf)~2 | empty shelves | (empty isle)~2 | (isle empty)~2 | cleared out | none left | nothing left | sold out | (everything there)~6 | out of stock | low on stock | well stocked | in stock | \"not in stock\" | In-stock | Out-of-stock | Hit \"or\" Miss | Bulk | Warehouse | Empty Rack |  Discontinued | (availability product)~2 | (available everything)~2 | (have everything)~2 | (everything available)~2 | \"every thing available\" | (\"all\" | everything | \"every thing\") & (\"one store\" | \"one shop\" | \"one place\" | \"same store\" | \"same shop\" | \"same place\") | (\"availability\" -(staff | people | employees | cashier | assistant | helper | till | register | till))"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_16cd3813f9bdddd97d5261d5",
+        "label": "Products Quality",
+        "query": "((Item | product | stock | brand | inventory | \"goods\" | Seasonal | selection | merchandise | staples | essentials | drinks | food | \"beauty\" | \"toiletries\" | medicine | vitamins | medication) & (Condition | Luxurious | Rare | Sophisticated | Unique | Funky | \"one of a kind\" | Quirky | Eclectic | Exclusive | Nice | Awesome | Great | Good | Bad | Fantastic | Fake | Horrible | Outstanding | Excellent | Amazing | Wonderful | Awful | Disgusting) & -(selection | variety | choice)) | (Quality -service) | quality products | quality produce | quality merchandise | quality food | good quality | quality | \"unhappy with a product\" | \"unhappy with the product\" | ((Item | product | stock | inventory | \"goods\" | Seasonal | selection | merchandise | staples | essentials | produce | food | ingredients) & (Organic | Rotten | Fresh | Freshly | Freshness | Deteriorated | Chemicals | Expired | Spoilt | Ripe | Ripen | Green | Expiration | Expire | Bad | in date | use by | sell by date | out of date | out-of-date | Old)) | Fresh | Out of Date | (alway fresh)~2 | (everything fresh)~2 | (fresh always)~2 | (fresh everything)~2"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_c7cf0ae90c7cfb77ea0aa4e4",
+        "label": "Products Variety",
+        "query": "Range | \"selection\" | \"selections\" | variety | diversity | variation | \"options\" | diverseness | “choose from” | diversity | mixture | \"choice\" | \"choices\" | assortment | brand | different (more & (items | products)) | (add & (items | products)) | (increase & (items | products | articles)) | (improve & (items | products)) | manufacturer | imported | interesting items | great selection | lots of choice | (Wide | large | limited | huge | big | small | broad | great ) & (selection | choice | variety | range) | “Choices” | Pick from | samples | \"different kind\" | \"different kinds\" | \"several kind\" | \"several kinds\" | \"under one roof\"  | \"under same roof\" | \"under the same roof\" | (under roof)~2 | \"everything in one place\" | \"everything in one store\" | \"everything in same place\" | \"everything in same store\" | \"everything in one shop\" | \"everything in same shop\" | \"can find all the\""
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_69c1d195bf9f11cabebe9ef5",
+        "label": "Professional Relationship",
+        "query": "trust | professionalism | transparent | respect | empathy | empathetic | honest | challenging relationship | dishonest | disrespect | distrust | hard work | value | unvalued | communication | attention to detail | competent | incompetent | ethical | organised | disorganised | organized | disorganized | accountable"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_667daf566b2059ff82935d13",
+        "label": "Quality",
+        "query": "Quality | excellent | integrity | brilliant | eminent | perfection | distinction | greatness | preeminence | superiority | transcendent | worth | fine | merit | value | pre-eminence | high standard | first-rateness | virtue | advantage | adequate | horrible | job | cleanliness"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_4029a5d28667ce338680b72c",
+        "label": "Recommend",
+        "query": "recommend | (tell people)~1 | (tell others)~1 | (tell friends)~1 | (tell everyone)~1 | (tell anyone)~1 | (tell someone)~1 | (friends recommend)~3 | compared | elsewhere | buyer beware | advocate | reviews | rate -(rated | rates) | stars | \"never buy\" | \"never shop\" | evangelist | praise | (refer | warn | run away | refer | beware | save money | avoid) & (others | friends | family | relatives | peer | others | people | everyone | everybody | anyone | someone) | ((satisfied | happy ) & (customer | \"I\" | family | me)) | (shop again)~5 | (would recommend)~3 | (will back)~5"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_722570731572e00bfe2675fa",
+        "label": "Reliability",
+        "query": "Reliability | dependable | count on | trustworthy | trustable | solidity | solidness | dependable | responsible | steadfast | faithful | authenticity | consistency | constancy | fidelity | firmness | devotion | commitment | dedication | adherence | staunch | fealty | steadiness | trusty"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_241166f33400be9f76aa6d67",
+        "label": "Renewals",
+        "query": "begin again | breathe new life into | bring up to date | continue | extend | fix up | mend | modernize | overhaul | prolong | reaffirm | recommence | recreate | re-establish | refit | refresh | refurbish | regenerate | rejuvenate | renovate | reopen | repair | repeat | replace | replenish | restate | restock | restore | resume | revitalize | transform | Renewals | renew | resubscribe | \"subscribe again\" | repurchase | (purchase again)~2 | re-purchase | \"unable to renew\" | \"buy again\" | rebuy | \"order again\" | reorder"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0d0a13d7c4e37d51f2866379",
+        "label": "Repairs",
+        "query": "repairs | fix | mend | restore | recondition | patch | overhaul | rebuild | reconstruct | renovate | revamp | adjust | fettle | refit | regulate | reform refurbish | retread | settle | patch up | put right | do up | fix up | make as good as new | put back together | put in order | set right | get working again | make good | restore to working order | touch up | give a face-lift | see to | maintenance"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_9a1c6ead20508a21233676cf",
+        "label": "Replace",
+        "query": "(Replace) -(replace (customer | food | perishables))"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_811785da21beac3897083890",
+        "label": "Salesperson",
+        "query": "Salesperson | salesman | saleswoman | sales man | sales woman"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_b63583f24cdb72768c1fc61b",
+        "label": "Self service",
+        "query": "Self service | self-service | self serve | self help"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_464ce2d48e4bfc6ba0186f7d",
+        "label": "Service",
+        "query": "Service -(customer service)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_b329a414d253b60a6ddbf63c",
+        "label": "Support - Agent Friendliness",
+        "query": "((usability | (user unfriendly)~10 | (user friendly)~10 | \"user friendly\" | \"user friendliness\" | intuitive | challenging | confusing | stupid | straightforward | \"straight forward\" | hard | inconvenience | convenience | convenient | easy | easier | harder | easiest | hardest | informative | \"of information\" | complex | complicated | confuse | difficult | \"is very\" | frustrate | simple | simpler | simplicity | overly | overwhelm | \"ease of\" | aggravattion) & (site | website | webpage | app | phoneapp) & -(over | \"online access\" | \"web access\" | \"access online\" | \"% online\" | (find number)~3 | (find phone) | (find site)~3)) |(agent friendliness)~3 | (agent friendly)~3 | (attention | attend | attendance | care | understand) & (awful | horrible | fantastic | satisfied | great | special | terrible | bad | good | well | wonderful | excellent | patient | rude | unfriendly | attitude | courteous | kindly | cordially | poor | best | reliable | love | personal | like | personalise | personalize) |  ((rude call)~5 | (awful call)~5 | (arrogant call)~5) -(severe | music | mean) | (helpful | stubborn | dishonest | dissatisfied | rude | awful | lazy | disrespectful | awful | crude | cordial | welcome | kind | polite | rude | unfriendly | friendly | patient | nice | pleasant | attitude | punctual | courteous | flexible | attend) & (customer support | service | she | he | cs | associate | staff | employee | seller | worker | cashier | client | rep | customer service | team | adviser | person | people | woman | man | customer | lady | call | phone | operator) |  \"understanding\" | (willing to help) | engaging |(hospitality -worker) | empathy | personable | politeness | amiability | approachable | attentive | (courtesy -(store | shop | outlet | facility)) | respectful | courteous | rude | polite | cordial | arrogant | amiable | arrogance | friendliness | kindness | cordiality | (mannered) | (enthusiasm -((my enthusiasm)~5 | (our enthusiasm)~5 | (daughter enthusiasm)~5 | (son enthusiasm)~5 |(child enthusiasm)~5)) | (friendly helpful)~1 | (friendly help)~2"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_a83f32b2ca3d5b1364ee6fc2",
+        "label": "Support - Agent Knowledge",
+        "query": "(phone & answer) | responded | listened | asked | responsive | assist | help | served | guided | greeted | approached | directed | spoke | interacted | attended | let | assistance | met | welcoming | acknowledge | knowledge | ((associate | consultant | employee | staff | dealer| representative | receptionist | salesman | staff | rep | manager | representative | specialist | personnel | concierge | salesmen | crew | clerk | worker | front desk | attendant | personnel | sales man | woman | supervisor | he | she | adviser | advisor | people | writer | agent | technician | coordinator | person | cashier | lady | porter | greeter | folks | center | girl | guy | saleman | man | director | mgr | supervisor | salesperson  | mechanic | gentleman) & ((answer question)~8 | (answer concern)~10 | (solve question)~10 | (solve concern)~10 | (answer trouble)~8 | ( solve difficulty)~10 | (solve problem)~10| (solve issue)~10 |resolution | solution | resolve | (fix problem)~5 | (fix issue)~5 | (fix defect)~5 | resolve | resolution | (find way)~4 | hiccup | setback | obstacle | hassle | diagnose | capacity | capability | diagnosis | troubleshooting | replicate | (correct problem)~5 | (correct issue)~5 | unsolve | (handle problem)~10 | (handle issue)~10 | ( answer problem)~6 | (answer issues)~6 | rectify | rectification | (problem dealt)~8 | (issue dealt)~8 | (dealt concern)~8 | intellectual | intellect | \"problem solving\")) -(resolution & (screen | window | media | image | picture | computer)) | (associate | consultant | employee | staff | dealer | rep | representative | receptionist | salesman | staff  | manager | representative | specialist | personnel | concierge | salesmen | crew | clerk | worker | front desk | attendant | personnel | sales man | woman | supervisor | he | she | adviser | people | writer | agent | technician | coordinator | person | cashier | lady | porter | greeter | folks | center | girl | guy | saleman | man | director | mgr | supervisor | salesperson | mechanic | gentleman) & (expertise | expert |skill | ability | skilled | clarification | clarify | complex | complicated | confuse | convey | decipher | decypher | proficiency | proficient | aptitude | knowledgeable | competence | incompetence | savvy | explain| explanation | understand | understandability | misinform | mislead| (history brand)~10 | (history engine)~10 | listen | informative | information | communicative)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_89ae0f7068b4fa95c3cac87a",
+        "label": "Support - Contact Center",
+        "query": "call center | answering service | CS | customer service | helpline | technical support | tech-support | service center | hotline | troubleshooting | help desk | help line | after-sales service | queue"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_7619bf743faa0bbba71af0c3",
+        "label": "Support - General",
+        "query": "helpdesk | technical | reply | call | honest | professional | heard | live | freeze | frozen | slack | channel | friendly | prompt | respect | someone | \"in touch\"~5 | human | feedback | come back | chat | giving me | bot | answer | question | response | respond | follow up | help | forum | support | say | repeat | issue | service | resolved | fix | resolution | ticket | problem | Drivers | engineer | tech | resolution | queue | virtual | community | (online help)~2 | (search help)~3 | \"support pages\" | self help | \"help desk\" | \"call center\" | \"status update\" | responsive | knowledgable | polite | courteous | patient | efficient | quick | sla | \"service level agreement\" | escalate | escalation | urgency | contact | communicate | talk | ((hold | phone | email | mail | \"customer support\" | account | gmail | hotmail | outlook | document | connect | dial | speak | support) & (instructions | find | \"how do I\" | \"how to\"~2 | information | \"product info\"~3 | \"product info\"~3 | \"figure out\" | follow | instruct))"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_5413d3b46d1d68c05ddfed45",
+        "label": "Support - Help Desk",
+        "query": "helpdesk | technical | engineer | tech | resolution | queue | \"help desk\" | \"status update\" | responsive | knowledgable | polite | courteous | patient| efficient | quick | sla"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_3f32104f2b988c54addb3186",
+        "label": "Support - Issue Identification",
+        "query": "issue | broke | quit | work | \"not connect\"~1 | \"not connected\"~1 | can't connect | won't connect | drop | malfunction | die | dead | reset | reboot | defective | bad | faulty | reset | stop | quit | blank | random | shatter | crack | locked | blocked | recover | incorrect | unreliable | error | erratic | unstable | reinstall | remove | flaws | bricked | waste | blink | unable | hosed | unpredictable | useless | error | corrupted | garbage  | disappear | lost | ((associate | consultant | employee | staff | dealer | rep |representative |receptionist | salesman | concierge | salesmen | crew | clerk | worker | front desk | attendant | personnel | sales man | woman | supervisor | he | she | manager | adviser | advisor | people | writer | agent | technician | coordinator| person | cashier | lady | porter | greeter | folks | center | girl | guy | man | director | mgr | supervisor | salesperson | mechanic) & ((problem | concern | trouble) & (identification | identify | investigate | investigation | diagnosis | recognise | recognize | diagnosis | taken | see | know | look) | (look)~5 | (take care)~5 | (found wrong)~5)) | complaint | complain | gripe | grievance | \"help desk\"|(complaint | complain | gripe | grievance | help) & ((policy support)~90 | rational | judgment | legal)  ((focused me)~2 | (customer focused)~2 | attention | (my needs)~3 | \"was dedicated\" | (feel comfortable)~2 | attentive | approachable | \"i left satisfied\" | dedicated | \"customer service\" | \"extra mile\" | listen | (concern listen)~3 | \"customer care\" | professional | conscientious | abysmal | knowledgeable | \"deal with customers\" | \"customer centric\" | \"customer driven\" | \"customer facing\" | \"customer focus\"~3 | \"customer oriented\"~2 | \"above and beyond\")"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_baee5563598123b881277c4e",
+        "label": "Support - Online",
+        "query": "chat | bot | forum | (virtual community)~3 | (online community)~3 | (online help)~2 | (search help)~3 | \"support pages\" | self service | self-help"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_0d5a887245a11f8c47773ce5",
+        "label": "Surveyor",
+        "query": "surveyor"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_d991fc941f1b67100b7af108",
+        "label": "Technician",
+        "query": "technician | engineer | expert | mechanic | skilled worker | specialist | machinist | worker | handicraftsman | installer | tradesman | hand worker | machine operator | factory worker | master | journeyman | machine minder | mech | repair man | contractor | workman | workwoman | installers | tech -(tech support)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_a416d734cdc81b3da5127bee",
+        "label": "Timeliness",
+        "query": "delay | wait | no call | await | hold back | hang | pause | stall | hold on | stand by | hang on | hold everything | be patient | bide your time | pass the time | waste time | put on hold | stay up for | hold the phone | hang"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_fa23b59b81e7cc9fa18c7044",
+        "label": "Transfer",
+        "query": "retention | attrition | churn | (retain | switch) & (client | supplier) |(Switch | Leave | Stay | Never | Again | Return  | \"stick\" or \"sticking\" | Trapped | Repeat | Future | Avoid) & company | another ( company | provider | service ) | switching -(switch & lights | electrical switch)"
+      }
+    },
+    {
+      "operation": "insert_topic",
+      "topic": {
+        "topicId": "Topic_1d5e6942f8468f4d2274327a",
+        "label": "Usability",
+        "query": "Usability | easability | usefulness | employability | functionality | operability | practicability | suitability | versatility | ease of use helpfulness | practicality | usefulness | user-friendliness"
+      }
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Support",
+      "childLabels": [
+        "Support - Agent Friendliness",
+        "Support - Issue Identification",
+        "Support - Online",
+        "Support - Agent Knowledge",
+        "Support - General",
+        "Support - Contact Center",
+        "Support - Help Desk"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Sales",
+      "childLabels": [
+        "Company",
+        "Contracts",
+        "Renewals",
+        "Process & Follow Up",
+        "Price",
+        "Discounts / Offers",
+        "Overall Sales Experience",
+        "Competition",
+        "Transfer",
+        "Professional Relationship",
+        "Demo Quality, Knowledge, or Expertise",
+        "Recommend"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Staff",
+      "childLabels": [
+        "Surveyor",
+        "Agent",
+        "Salesperson",
+        "Technician"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Delivery",
+      "childLabels": [
+        "Delivery - Overall Delivery Experience",
+        "Delivery - Delivery Delay"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Product Experience",
+      "childLabels": [
+        "Product - User experience",
+        "Products Quality",
+        "Products Variety",
+        "Products Availability"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Invoicing",
+      "childLabels": [
+        "Payments",
+        "Cost/Rate",
+        "Paperless Billing",
+        "Accuracy",
+        "Claims",
+        "Self service"
+      ]
+    },
+    {
+      "operation": "move_topics",
+      "parentLabel": "Service/Repairs",
+      "childLabels": [
+        "Replace",
+        "Quality",
+        "Service",
+        "Appointment",
+        "Install",
+        "Accessibility",
+        "Reliability",
+        "Usability",
+        "Timeliness",
+        "Repairs"
+      ]
+    }
+  ]
+}
